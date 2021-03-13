@@ -1,0 +1,11 @@
+framework module desktop_window {
+  umbrella header "desktop_window-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module desktop_window.Swift {
+    header "desktop_window-Swift.h"
+    requires objc
+}

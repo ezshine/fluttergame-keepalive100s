@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainFlutterWindow"
+provides-nominal:
+- "13keepalive100s17MainFlutterWindowC"
+provides-member:
+- ["13keepalive100s17MainFlutterWindowC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "FlutterViewController"
+- "MainFlutterWindow"
+- "NSWindow"
+- !private "RegisterGeneratedPlugins"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["SK", ""]
+- ["Sz", ""]
+- !private ["s7CVarArgP", "FlutterViewController"]
+- !private ["s7CVarArgP", "RegisterGeneratedPlugins"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "contentViewController"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setFrame"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "RegisterGeneratedPlugins"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "contentViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setFrame"]
+- !private ["s23CustomStringConvertibleP", "FlutterViewController"]
+- !private ["s23CustomStringConvertibleP", "RegisterGeneratedPlugins"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "contentViewController"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setFrame"]
+- !private ["SQ", "FlutterViewController"]
+- !private ["SQ", "RegisterGeneratedPlugins"]
+- ["SQ", ""]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "contentViewController"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "setFrame"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["So21FlutterPluginRegistryP", "init"]
+- !private ["So21FlutterViewControllerC", "init"]
+- !private ["SH", "FlutterViewController"]
+- !private ["SH", "RegisterGeneratedPlugins"]
+- ["SH", ""]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "contentViewController"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "setFrame"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["13keepalive100s17MainFlutterWindowC", "FlutterViewController"]
+- !private ["13keepalive100s17MainFlutterWindowC", "RegisterGeneratedPlugins"]
+- ["13keepalive100s17MainFlutterWindowC", ""]
+- ["13keepalive100s17MainFlutterWindowC", "awakeFromNib"]
+- !private ["13keepalive100s17MainFlutterWindowC", "contentViewController"]
+- ["13keepalive100s17MainFlutterWindowC", "deinit"]
+- !private ["13keepalive100s17MainFlutterWindowC", "frame"]
+- ["13keepalive100s17MainFlutterWindowC", "init"]
+- !private ["13keepalive100s17MainFlutterWindowC", "setFrame"]
+- !private ["So22NSAccessibilityElementP", "FlutterViewController"]
+- !private ["So22NSAccessibilityElementP", "RegisterGeneratedPlugins"]
+- ["So22NSAccessibilityElementP", ""]
+- ["So22NSAccessibilityElementP", "awakeFromNib"]
+- !private ["So22NSAccessibilityElementP", "contentViewController"]
+- !private ["So22NSAccessibilityElementP", "frame"]
+- ["So22NSAccessibilityElementP", "init"]
+- !private ["So22NSAccessibilityElementP", "setFrame"]
+- !private ["So15NSAccessibilityP", "FlutterViewController"]
+- !private ["So15NSAccessibilityP", "RegisterGeneratedPlugins"]
+- ["So15NSAccessibilityP", ""]
+- ["So15NSAccessibilityP", "awakeFromNib"]
+- !private ["So15NSAccessibilityP", "contentViewController"]
+- !private ["So15NSAccessibilityP", "frame"]
+- ["So15NSAccessibilityP", "init"]
+- !private ["So15NSAccessibilityP", "setFrame"]
+- !private ["So29NSAnimatablePropertyContainerP", "FlutterViewController"]
+- !private ["So29NSAnimatablePropertyContainerP", "RegisterGeneratedPlugins"]
+- ["So29NSAnimatablePropertyContainerP", ""]
+- ["So29NSAnimatablePropertyContainerP", "awakeFromNib"]
+- !private ["So29NSAnimatablePropertyContainerP", "contentViewController"]
+- !private ["So29NSAnimatablePropertyContainerP", "frame"]
+- ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "setFrame"]
+- !private ["So25NSAppearanceCustomizationP", "FlutterViewController"]
+- !private ["So25NSAppearanceCustomizationP", "RegisterGeneratedPlugins"]
+- ["So25NSAppearanceCustomizationP", ""]
+- ["So25NSAppearanceCustomizationP", "awakeFromNib"]
+- !private ["So25NSAppearanceCustomizationP", "contentViewController"]
+- !private ["So25NSAppearanceCustomizationP", "frame"]
+- ["So25NSAppearanceCustomizationP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "setFrame"]
+- !private ["So8NSCodingP", "FlutterViewController"]
+- !private ["So8NSCodingP", "RegisterGeneratedPlugins"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "contentViewController"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setFrame"]
+- !private ["So8NSCodingP", "setFrameFrom"]
+- !private ["So8NSCodingP", "setFrameFromString"]
+- ["So8NSCodingP", "windowWithContentViewController"]
+- !private ["So8NSEditorP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So20NSMenuItemValidationP", "FlutterViewController"]
+- !private ["So20NSMenuItemValidationP", "RegisterGeneratedPlugins"]
+- ["So20NSMenuItemValidationP", ""]
+- ["So20NSMenuItemValidationP", "awakeFromNib"]
+- !private ["So20NSMenuItemValidationP", "contentViewController"]
+- !private ["So20NSMenuItemValidationP", "frame"]
+- ["So20NSMenuItemValidationP", "init"]
+- !private ["So20NSMenuItemValidationP", "setFrame"]
+- !private ["So8NSObjectC", "FlutterViewController"]
+- !private ["So8NSObjectC", "RegisterGeneratedPlugins"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "contentViewController"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setFrame"]
+- !private ["So8NSObjectC", "setFrameFrom"]
+- !private ["So8NSObjectC", "setFrameFromString"]
+- ["So8NSObjectC", "windowWithContentViewController"]
+- !private ["So8NSObjectP", "FlutterViewController"]
+- !private ["So8NSObjectP", "RegisterGeneratedPlugins"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "contentViewController"]
+- !private ["So8NSObjectP", "frame"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "setFrame"]
+- !private ["So8NSObjectP", "setFrameFrom"]
+- !private ["So8NSObjectP", "setFrameFromString"]
+- ["So8NSObjectP", "windowWithContentViewController"]
+- !private ["So11NSResponderC", "FlutterViewController"]
+- !private ["So11NSResponderC", "RegisterGeneratedPlugins"]
+- ["So11NSResponderC", ""]
+- ["So11NSResponderC", "awakeFromNib"]
+- !private ["So11NSResponderC", "contentViewController"]
+- !private ["So11NSResponderC", "frame"]
+- ["So11NSResponderC", "init"]
+- !private ["So11NSResponderC", "setFrame"]
+- !private ["So11NSResponderC", "setFrameFrom"]
+- !private ["So11NSResponderC", "setFrameFromString"]
+- ["So11NSResponderC", "windowWithContentViewController"]
+- !private ["So17NSSeguePerformingP", "init"]
+- !private ["So30NSStandardKeyBindingRespondingP", "FlutterViewController"]
+- !private ["So30NSStandardKeyBindingRespondingP", "RegisterGeneratedPlugins"]
+- ["So30NSStandardKeyBindingRespondingP", ""]
+- ["So30NSStandardKeyBindingRespondingP", "awakeFromNib"]
+- !private ["So30NSStandardKeyBindingRespondingP", "contentViewController"]
+- !private ["So30NSStandardKeyBindingRespondingP", "frame"]
+- ["So30NSStandardKeyBindingRespondingP", "init"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setFrame"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setFrameFrom"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setFrameFromString"]
+- ["So30NSStandardKeyBindingRespondingP", "windowWithContentViewController"]
+- !private ["So18NSTouchBarProviderP", "FlutterViewController"]
+- !private ["So18NSTouchBarProviderP", "RegisterGeneratedPlugins"]
+- ["So18NSTouchBarProviderP", ""]
+- ["So18NSTouchBarProviderP", "awakeFromNib"]
+- !private ["So18NSTouchBarProviderP", "contentViewController"]
+- !private ["So18NSTouchBarProviderP", "frame"]
+- ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "setFrame"]
+- !private ["So18NSTouchBarProviderP", "setFrameFrom"]
+- !private ["So18NSTouchBarProviderP", "setFrameFromString"]
+- ["So18NSTouchBarProviderP", "windowWithContentViewController"]
+- !private ["So23NSUserActivityRestoringP", "FlutterViewController"]
+- !private ["So23NSUserActivityRestoringP", "RegisterGeneratedPlugins"]
+- ["So23NSUserActivityRestoringP", ""]
+- ["So23NSUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23NSUserActivityRestoringP", "contentViewController"]
+- !private ["So23NSUserActivityRestoringP", "frame"]
+- ["So23NSUserActivityRestoringP", "init"]
+- !private ["So23NSUserActivityRestoringP", "setFrame"]
+- !private ["So23NSUserActivityRestoringP", "setFrameFrom"]
+- !private ["So23NSUserActivityRestoringP", "setFrameFromString"]
+- ["So23NSUserActivityRestoringP", "windowWithContentViewController"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "FlutterViewController"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "RegisterGeneratedPlugins"]
+- ["So33NSUserInterfaceItemIdentificationP", ""]
+- ["So33NSUserInterfaceItemIdentificationP", "awakeFromNib"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "contentViewController"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "frame"]
+- ["So33NSUserInterfaceItemIdentificationP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "setFrame"]
+- !private ["So26NSUserInterfaceValidationsP", "FlutterViewController"]
+- !private ["So26NSUserInterfaceValidationsP", "RegisterGeneratedPlugins"]
+- ["So26NSUserInterfaceValidationsP", ""]
+- ["So26NSUserInterfaceValidationsP", "awakeFromNib"]
+- !private ["So26NSUserInterfaceValidationsP", "contentViewController"]
+- !private ["So26NSUserInterfaceValidationsP", "frame"]
+- ["So26NSUserInterfaceValidationsP", "init"]
+- !private ["So26NSUserInterfaceValidationsP", "setFrame"]
+- ["So16NSViewControllerC", ""]
+- !private ["So16NSViewControllerC", "init"]
+- !private ["So8NSWindowC", "FlutterViewController"]
+- !private ["So8NSWindowC", "RegisterGeneratedPlugins"]
+- ["So8NSWindowC", ""]
+- ["So8NSWindowC", "awakeFromNib"]
+- !private ["So8NSWindowC", "contentViewController"]
+- !private ["So8NSWindowC", "frame"]
+- ["So8NSWindowC", "init"]
+- !private ["So8NSWindowC", "setFrame"]
+- ["Sj", ""]
+- ["ST", ""]
+- ["s13SignedNumericP", ""]
+- ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RegisterGeneratedPlugins"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFrame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RegisterGeneratedPlugins"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setFrame"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "SK"
+- "Sz"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So21FlutterPluginRegistryP"
+- !private "So21FlutterViewControllerC"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "13keepalive100s17MainFlutterWindowC"
+- "So22NSAccessibilityElementP"
+- "So15NSAccessibilityP"
+- "So29NSAnimatablePropertyContainerP"
+- "So25NSAppearanceCustomizationP"
+- "So8NSCodingP"
+- !private "So8NSEditorP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So20NSMenuItemValidationP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSResponderC"
+- !private "So17NSSeguePerformingP"
+- "So30NSStandardKeyBindingRespondingP"
+- "So18NSTouchBarProviderP"
+- "So23NSUserActivityRestoringP"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So26NSUserInterfaceValidationsP"
+- "So16NSViewControllerC"
+- "So8NSWindowC"
+- "Sj"
+- "ST"
+- "s13SignedNumericP"
+- "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterMacOS.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterEngine.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterTexture.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterAppDelegate.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterViewController.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterCodecs.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterChannels.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterMacros.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Headers/FlutterDartProject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/FlutterMacOS.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8403f241b5c1ab771bb88eeff1d289b0"

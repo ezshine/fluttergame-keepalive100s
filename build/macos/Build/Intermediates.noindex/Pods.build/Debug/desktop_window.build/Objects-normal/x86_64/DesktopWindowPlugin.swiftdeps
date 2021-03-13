@@ -1,0 +1,762 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DesktopWindowPlugin"
+provides-nominal:
+- "14desktop_window19DesktopWindowPluginC"
+provides-member:
+- ["14desktop_window19DesktopWindowPluginC", ""]
+provides-dynamic-lookup:
+- "handle"
+- "register"
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "-"
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGFloat"
+- !private "CGSize"
+- "CastingPrecedence"
+- "DesktopWindowPlugin"
+- "Float"
+- !private "FloatLiteralType"
+- "FlutterMethodCall"
+- !private "FlutterMethodChannel"
+- !private "FlutterMethodNotImplemented"
+- "FlutterPlugin"
+- "FlutterPluginRegistrar"
+- "FlutterResult"
+- !private "IntegerLiteralType"
+- !private "NSApplication"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "greatestFiniteMagnitude"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SK", ""]
+- !private ["SB", "binade"]
+- !private ["SB", "exponentBitCount"]
+- !private ["SB", "exponentBitPattern"]
+- !private ["SB", "greatestFiniteMagnitude"]
+- !private ["SB", "init"]
+- !private ["SB", "isTotallyOrdered"]
+- !private ["SB", "radix"]
+- !private ["SB", "significandBitCount"]
+- !private ["SB", "significandBitPattern"]
+- !private ["SB", "significandWidth"]
+- !private ["Sz", ""]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So7CGPointV", "y"]
+- !private ["So6CGRectV", "origin"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "init"]
+- !private ["So6CGSizeV", "width"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "DesktopWindowPlugin"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "FlutterMethodChannel"]
+- !private ["s7CVarArgP", "FlutterMethodNotImplemented"]
+- !private ["s7CVarArgP", "NSApplication"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "arguments"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- ["s7CVarArgP", "handle"]
+- ["s7CVarArgP", "handleMethodCall"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mainWindow"]
+- !private ["s7CVarArgP", "maxSize"]
+- !private ["s7CVarArgP", "method"]
+- !private ["s7CVarArgP", "minSize"]
+- ["s7CVarArgP", "register"]
+- ["s7CVarArgP", "registerWithRegistrar"]
+- !private ["s7CVarArgP", "setFrame"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "styleMask"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toggleFullScreen"]
+- !private ["Sl", ""]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "greatestFiniteMagnitude"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "DesktopWindowPlugin"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s28CustomDebugStringConvertibleP", "NSApplication"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "arguments"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "greatestFiniteMagnitude"]
+- ["s28CustomDebugStringConvertibleP", "handle"]
+- ["s28CustomDebugStringConvertibleP", "handleMethodCall"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mainWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "maxSize"]
+- !private ["s28CustomDebugStringConvertibleP", "method"]
+- !private ["s28CustomDebugStringConvertibleP", "minSize"]
+- !private ["s28CustomDebugStringConvertibleP", "origin"]
+- ["s28CustomDebugStringConvertibleP", "register"]
+- ["s28CustomDebugStringConvertibleP", "registerWithRegistrar"]
+- !private ["s28CustomDebugStringConvertibleP", "setFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "styleMask"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toggleFullScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "origin"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "DesktopWindowPlugin"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s23CustomStringConvertibleP", "NSApplication"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "arguments"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- ["s23CustomStringConvertibleP", "handle"]
+- ["s23CustomStringConvertibleP", "handleMethodCall"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mainWindow"]
+- !private ["s23CustomStringConvertibleP", "maxSize"]
+- !private ["s23CustomStringConvertibleP", "method"]
+- !private ["s23CustomStringConvertibleP", "minSize"]
+- ["s23CustomStringConvertibleP", "register"]
+- ["s23CustomStringConvertibleP", "registerWithRegistrar"]
+- !private ["s23CustomStringConvertibleP", "setFrame"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "styleMask"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toggleFullScreen"]
+- !private ["Se", "greatestFiniteMagnitude"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "origin"]
+- !private ["Se", "size"]
+- !private ["Se", "subscript"]
+- !private ["Se", "width"]
+- !private ["Se", "y"]
+- !private ["14desktop_window19DesktopWindowPluginC", "Bool"]
+- !private ["14desktop_window19DesktopWindowPluginC", "CGFloat"]
+- !private ["14desktop_window19DesktopWindowPluginC", "CGSize"]
+- !private ["14desktop_window19DesktopWindowPluginC", "DesktopWindowPlugin"]
+- !private ["14desktop_window19DesktopWindowPluginC", "Float"]
+- ["14desktop_window19DesktopWindowPluginC", "FlutterMethodCall"]
+- !private ["14desktop_window19DesktopWindowPluginC", "FlutterMethodChannel"]
+- !private ["14desktop_window19DesktopWindowPluginC", "FlutterMethodNotImplemented"]
+- ["14desktop_window19DesktopWindowPluginC", "FlutterPluginRegistrar"]
+- ["14desktop_window19DesktopWindowPluginC", "FlutterResult"]
+- !private ["14desktop_window19DesktopWindowPluginC", "NSApplication"]
+- !private ["14desktop_window19DesktopWindowPluginC", "String"]
+- ["14desktop_window19DesktopWindowPluginC", ""]
+- ["14desktop_window19DesktopWindowPluginC", "deinit"]
+- ["14desktop_window19DesktopWindowPluginC", "handle"]
+- ["14desktop_window19DesktopWindowPluginC", "handleMethodCall"]
+- ["14desktop_window19DesktopWindowPluginC", "init"]
+- ["14desktop_window19DesktopWindowPluginC", "register"]
+- ["14desktop_window19DesktopWindowPluginC", "registerWithRegistrar"]
+- !private ["SD", "subscript"]
+- !private ["SE", "greatestFiniteMagnitude"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "origin"]
+- !private ["SE", "size"]
+- !private ["SE", "subscript"]
+- !private ["SE", "width"]
+- !private ["SE", "y"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "CGSize"]
+- !private ["SQ", "DesktopWindowPlugin"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "FlutterMethodChannel"]
+- !private ["SQ", "FlutterMethodNotImplemented"]
+- !private ["SQ", "NSApplication"]
+- ["SQ", ""]
+- !private ["SQ", "arguments"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "fullScreen"]
+- !private ["SQ", "greatestFiniteMagnitude"]
+- ["SQ", "handle"]
+- ["SQ", "handleMethodCall"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "mainWindow"]
+- !private ["SQ", "maxSize"]
+- !private ["SQ", "method"]
+- !private ["SQ", "minSize"]
+- !private ["SQ", "origin"]
+- ["SQ", "register"]
+- ["SQ", "registerWithRegistrar"]
+- !private ["SQ", "setFrame"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "size"]
+- !private ["SQ", "styleMask"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toggleFullScreen"]
+- !private ["SQ", "width"]
+- !private ["SQ", "y"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "fullScreen"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["Sf", "greatestFiniteMagnitude"]
+- !private ["SF", "*"]
+- !private ["SF", "*="]
+- !private ["SF", "+"]
+- !private ["SF", "+="]
+- !private ["SF", "-"]
+- !private ["SF", "-="]
+- !private ["SF", "/"]
+- !private ["SF", "/="]
+- !private ["SF", ""]
+- !private ["SF", "addProduct"]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "exponent"]
+- !private ["SF", "floatingPointClass"]
+- !private ["SF", "formRemainder"]
+- !private ["SF", "formSquareRoot"]
+- !private ["SF", "formTruncatingRemainder"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "infinity"]
+- !private ["SF", "init"]
+- !private ["SF", "isCanonical"]
+- !private ["SF", "isEqual"]
+- !private ["SF", "isFinite"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isLess"]
+- !private ["SF", "isLessThanOrEqualTo"]
+- !private ["SF", "isNaN"]
+- !private ["SF", "isNormal"]
+- !private ["SF", "isSignalingNaN"]
+- !private ["SF", "isSubnormal"]
+- !private ["SF", "isTotallyOrdered"]
+- !private ["SF", "isZero"]
+- !private ["SF", "leastNonzeroMagnitude"]
+- !private ["SF", "leastNormalMagnitude"]
+- !private ["SF", "maximum"]
+- !private ["SF", "maximumMagnitude"]
+- !private ["SF", "minimum"]
+- !private ["SF", "minimumMagnitude"]
+- !private ["SF", "nan"]
+- !private ["SF", "negate"]
+- !private ["SF", "nextDown"]
+- !private ["SF", "nextUp"]
+- !private ["SF", "pi"]
+- !private ["SF", "radix"]
+- !private ["SF", "remainder"]
+- !private ["SF", "round"]
+- !private ["SF", "rounded"]
+- !private ["SF", "sign"]
+- !private ["SF", "signalingNaN"]
+- !private ["SF", "significand"]
+- !private ["SF", "squareRoot"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulp"]
+- !private ["SF", "ulpOfOne"]
+- !private ["So17FlutterMethodCallC", "arguments"]
+- !private ["So17FlutterMethodCallC", "method"]
+- !private ["So20FlutterMethodChannelC", "init"]
+- !private ["So13FlutterPluginP", "CGFloat"]
+- !private ["So13FlutterPluginP", "CGSize"]
+- !private ["So13FlutterPluginP", "DesktopWindowPlugin"]
+- !private ["So13FlutterPluginP", "Float"]
+- !private ["So13FlutterPluginP", "FlutterMethodChannel"]
+- !private ["So13FlutterPluginP", "FlutterMethodNotImplemented"]
+- !private ["So13FlutterPluginP", "NSApplication"]
+- ["So13FlutterPluginP", ""]
+- ["So13FlutterPluginP", "deinit"]
+- ["So13FlutterPluginP", "handle"]
+- ["So13FlutterPluginP", "handleMethodCall"]
+- ["So13FlutterPluginP", "init"]
+- ["So13FlutterPluginP", "register"]
+- ["So13FlutterPluginP", "registerWithRegistrar"]
+- !private ["So22FlutterPluginRegistrarP", "addMethodCallDelegate"]
+- !private ["So22FlutterPluginRegistrarP", "messenger"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "CGSize"]
+- !private ["SH", "DesktopWindowPlugin"]
+- !private ["SH", "Float"]
+- !private ["SH", "FlutterMethodChannel"]
+- !private ["SH", "FlutterMethodNotImplemented"]
+- !private ["SH", "NSApplication"]
+- ["SH", ""]
+- !private ["SH", "arguments"]
+- !private ["SH", "frame"]
+- !private ["SH", "greatestFiniteMagnitude"]
+- ["SH", "handle"]
+- ["SH", "handleMethodCall"]
+- !private ["SH", "init"]
+- !private ["SH", "mainWindow"]
+- !private ["SH", "maxSize"]
+- !private ["SH", "method"]
+- !private ["SH", "minSize"]
+- ["SH", "register"]
+- ["SH", "registerWithRegistrar"]
+- !private ["SH", "setFrame"]
+- !private ["SH", "shared"]
+- !private ["SH", "styleMask"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toggleFullScreen"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["So22NSAccessibilityElementP", "frame"]
+- !private ["So22NSAccessibilityElementP", "mainWindow"]
+- !private ["So22NSAccessibilityElementP", "maxSize"]
+- !private ["So22NSAccessibilityElementP", "minSize"]
+- !private ["So22NSAccessibilityElementP", "setFrame"]
+- !private ["So22NSAccessibilityElementP", "shared"]
+- !private ["So22NSAccessibilityElementP", "styleMask"]
+- !private ["So22NSAccessibilityElementP", "toggleFullScreen"]
+- !private ["So15NSAccessibilityP", "frame"]
+- !private ["So15NSAccessibilityP", "mainWindow"]
+- !private ["So15NSAccessibilityP", "maxSize"]
+- !private ["So15NSAccessibilityP", "minSize"]
+- !private ["So15NSAccessibilityP", "setFrame"]
+- !private ["So15NSAccessibilityP", "shared"]
+- !private ["So15NSAccessibilityP", "styleMask"]
+- !private ["So15NSAccessibilityP", "toggleFullScreen"]
+- !private ["So29NSAnimatablePropertyContainerP", "frame"]
+- !private ["So29NSAnimatablePropertyContainerP", "maxSize"]
+- !private ["So29NSAnimatablePropertyContainerP", "minSize"]
+- !private ["So29NSAnimatablePropertyContainerP", "setFrame"]
+- !private ["So29NSAnimatablePropertyContainerP", "styleMask"]
+- !private ["So29NSAnimatablePropertyContainerP", "toggleFullScreen"]
+- !private ["So25NSAppearanceCustomizationP", "frame"]
+- !private ["So25NSAppearanceCustomizationP", "mainWindow"]
+- !private ["So25NSAppearanceCustomizationP", "maxSize"]
+- !private ["So25NSAppearanceCustomizationP", "minSize"]
+- !private ["So25NSAppearanceCustomizationP", "setFrame"]
+- !private ["So25NSAppearanceCustomizationP", "shared"]
+- !private ["So25NSAppearanceCustomizationP", "styleMask"]
+- !private ["So25NSAppearanceCustomizationP", "toggleFullScreen"]
+- !private ["So13NSApplicationC", "mainWindow"]
+- !private ["So13NSApplicationC", "shared"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "mainWindow"]
+- !private ["So8NSCodingP", "maxSize"]
+- !private ["So8NSCodingP", "minSize"]
+- !private ["So8NSCodingP", "setFrame"]
+- !private ["So8NSCodingP", "setFrameFrom"]
+- !private ["So8NSCodingP", "setFrameFromString"]
+- !private ["So8NSCodingP", "shared"]
+- !private ["So8NSCodingP", "styleMask"]
+- !private ["So8NSCodingP", "toggleFullScreen"]
+- !private ["So20NSMenuItemValidationP", "frame"]
+- !private ["So20NSMenuItemValidationP", "mainWindow"]
+- !private ["So20NSMenuItemValidationP", "maxSize"]
+- !private ["So20NSMenuItemValidationP", "minSize"]
+- !private ["So20NSMenuItemValidationP", "setFrame"]
+- !private ["So20NSMenuItemValidationP", "shared"]
+- !private ["So20NSMenuItemValidationP", "styleMask"]
+- !private ["So20NSMenuItemValidationP", "toggleFullScreen"]
+- !private ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGSize"]
+- !private ["So8NSObjectC", "DesktopWindowPlugin"]
+- !private ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "FlutterMethodCall"]
+- !private ["So8NSObjectC", "FlutterMethodChannel"]
+- !private ["So8NSObjectC", "FlutterMethodNotImplemented"]
+- ["So8NSObjectC", "FlutterPluginRegistrar"]
+- ["So8NSObjectC", "FlutterResult"]
+- !private ["So8NSObjectC", "NSApplication"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "arguments"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "handleMethodCall"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "mainWindow"]
+- !private ["So8NSObjectC", "maxSize"]
+- !private ["So8NSObjectC", "method"]
+- !private ["So8NSObjectC", "methodChannelWithName"]
+- !private ["So8NSObjectC", "minSize"]
+- ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerWithRegistrar"]
+- !private ["So8NSObjectC", "setFrame"]
+- !private ["So8NSObjectC", "setFrameFrom"]
+- !private ["So8NSObjectC", "setFrameFromString"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "styleMask"]
+- !private ["So8NSObjectC", "toggleFullScreen"]
+- !private ["So8NSObjectP", "Bool"]
+- !private ["So8NSObjectP", "CGFloat"]
+- !private ["So8NSObjectP", "CGSize"]
+- !private ["So8NSObjectP", "DesktopWindowPlugin"]
+- !private ["So8NSObjectP", "Float"]
+- ["So8NSObjectP", "FlutterMethodCall"]
+- !private ["So8NSObjectP", "FlutterMethodChannel"]
+- !private ["So8NSObjectP", "FlutterMethodNotImplemented"]
+- ["So8NSObjectP", "FlutterPluginRegistrar"]
+- ["So8NSObjectP", "FlutterResult"]
+- !private ["So8NSObjectP", "NSApplication"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addMethodCallDelegate"]
+- !private ["So8NSObjectP", "arguments"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "frame"]
+- ["So8NSObjectP", "handle"]
+- ["So8NSObjectP", "handleMethodCall"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mainWindow"]
+- !private ["So8NSObjectP", "maxSize"]
+- !private ["So8NSObjectP", "messenger"]
+- !private ["So8NSObjectP", "method"]
+- !private ["So8NSObjectP", "methodChannelWithName"]
+- !private ["So8NSObjectP", "minSize"]
+- ["So8NSObjectP", "register"]
+- ["So8NSObjectP", "registerWithRegistrar"]
+- !private ["So8NSObjectP", "setFrame"]
+- !private ["So8NSObjectP", "setFrameFrom"]
+- !private ["So8NSObjectP", "setFrameFromString"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "styleMask"]
+- !private ["So8NSObjectP", "toggleFullScreen"]
+- ["So11NSResponderC", ""]
+- !private ["So11NSResponderC", "frame"]
+- !private ["So11NSResponderC", "mainWindow"]
+- !private ["So11NSResponderC", "maxSize"]
+- !private ["So11NSResponderC", "minSize"]
+- !private ["So11NSResponderC", "setFrame"]
+- !private ["So11NSResponderC", "setFrameFrom"]
+- !private ["So11NSResponderC", "setFrameFromString"]
+- !private ["So11NSResponderC", "shared"]
+- !private ["So11NSResponderC", "styleMask"]
+- !private ["So11NSResponderC", "toggleFullScreen"]
+- !private ["So30NSStandardKeyBindingRespondingP", ""]
+- !private ["So30NSStandardKeyBindingRespondingP", "frame"]
+- !private ["So30NSStandardKeyBindingRespondingP", "mainWindow"]
+- !private ["So30NSStandardKeyBindingRespondingP", "maxSize"]
+- !private ["So30NSStandardKeyBindingRespondingP", "minSize"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setFrame"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setFrameFrom"]
+- !private ["So30NSStandardKeyBindingRespondingP", "setFrameFromString"]
+- !private ["So30NSStandardKeyBindingRespondingP", "shared"]
+- !private ["So30NSStandardKeyBindingRespondingP", "styleMask"]
+- !private ["So30NSStandardKeyBindingRespondingP", "toggleFullScreen"]
+- !private ["So18NSTouchBarProviderP", ""]
+- !private ["So18NSTouchBarProviderP", "frame"]
+- !private ["So18NSTouchBarProviderP", "mainWindow"]
+- !private ["So18NSTouchBarProviderP", "maxSize"]
+- !private ["So18NSTouchBarProviderP", "minSize"]
+- !private ["So18NSTouchBarProviderP", "setFrame"]
+- !private ["So18NSTouchBarProviderP", "setFrameFrom"]
+- !private ["So18NSTouchBarProviderP", "setFrameFromString"]
+- !private ["So18NSTouchBarProviderP", "shared"]
+- !private ["So18NSTouchBarProviderP", "styleMask"]
+- !private ["So18NSTouchBarProviderP", "toggleFullScreen"]
+- !private ["So23NSUserActivityRestoringP", ""]
+- !private ["So23NSUserActivityRestoringP", "frame"]
+- !private ["So23NSUserActivityRestoringP", "mainWindow"]
+- !private ["So23NSUserActivityRestoringP", "maxSize"]
+- !private ["So23NSUserActivityRestoringP", "minSize"]
+- !private ["So23NSUserActivityRestoringP", "setFrame"]
+- !private ["So23NSUserActivityRestoringP", "setFrameFrom"]
+- !private ["So23NSUserActivityRestoringP", "setFrameFromString"]
+- !private ["So23NSUserActivityRestoringP", "shared"]
+- !private ["So23NSUserActivityRestoringP", "styleMask"]
+- !private ["So23NSUserActivityRestoringP", "toggleFullScreen"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "frame"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "maxSize"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "minSize"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "setFrame"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "styleMask"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "toggleFullScreen"]
+- !private ["So26NSUserInterfaceValidationsP", "frame"]
+- !private ["So26NSUserInterfaceValidationsP", "mainWindow"]
+- !private ["So26NSUserInterfaceValidationsP", "maxSize"]
+- !private ["So26NSUserInterfaceValidationsP", "minSize"]
+- !private ["So26NSUserInterfaceValidationsP", "setFrame"]
+- !private ["So26NSUserInterfaceValidationsP", "shared"]
+- !private ["So26NSUserInterfaceValidationsP", "styleMask"]
+- !private ["So26NSUserInterfaceValidationsP", "toggleFullScreen"]
+- !private ["So8NSWindowC", "frame"]
+- !private ["So8NSWindowC", "maxSize"]
+- !private ["So8NSWindowC", "minSize"]
+- !private ["So8NSWindowC", "setFrame"]
+- !private ["So8NSWindowC", "styleMask"]
+- !private ["So8NSWindowC", "toggleFullScreen"]
+- !private ["Sj", "*"]
+- !private ["Sj", "*="]
+- !private ["Sj", ""]
+- !private ["Sj", "greatestFiniteMagnitude"]
+- !private ["Sj", "init"]
+- !private ["Sj", "magnitude"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "fullScreen"]
+- !private ["SY", "Element"]
+- !private ["SY", ""]
+- !private ["SY", "contains"]
+- !private ["SY", "fullScreen"]
+- !private ["s10SIMDScalarP", "greatestFiniteMagnitude"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "fullScreen"]
+- !private ["s13SignedNumericP", "-"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "greatestFiniteMagnitude"]
+- !private ["Sx", "init"]
+- !private ["So17NSWindowStyleMaskV", "Element"]
+- !private ["So17NSWindowStyleMaskV", "contains"]
+- !private ["So17NSWindowStyleMaskV", "fullScreen"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "greatestFiniteMagnitude"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "origin"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "y"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "greatestFiniteMagnitude"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DesktopWindowPlugin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodNotImplemented"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arguments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handleMethodCall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "method"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minSize"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "registerWithRegistrar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "styleMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toggleFullScreen"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGFloat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DesktopWindowPlugin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Float"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterMethodChannel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterMethodNotImplemented"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSApplication"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "arguments"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleMethodCall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mainWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maxSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "method"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minSize"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerWithRegistrar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setFrame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "styleMask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toggleFullScreen"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "origin"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "14desktop_window19DesktopWindowPluginC"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- !private "So17FlutterMethodCallC"
+- !private "So20FlutterMethodChannelC"
+- "So13FlutterPluginP"
+- !private "So22FlutterPluginRegistrarP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So22NSAccessibilityElementP"
+- !private "So15NSAccessibilityP"
+- !private "So29NSAnimatablePropertyContainerP"
+- !private "So25NSAppearanceCustomizationP"
+- !private "So13NSApplicationC"
+- !private "So8NSCodingP"
+- !private "So20NSMenuItemValidationP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSResponderC"
+- !private "So30NSStandardKeyBindingRespondingP"
+- !private "So18NSTouchBarProviderP"
+- !private "So23NSUserActivityRestoringP"
+- !private "So33NSUserInterfaceItemIdentificationP"
+- !private "So26NSUserInterfaceValidationsP"
+- !private "So8NSWindowC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "So17NSWindowStyleMaskV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/macos/Pods/Target Support Files/desktop_window/desktop_window-umbrella.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/unextended-module.modulemap"
+- "/Users/ezshine/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "35c54bea65982e2f4b05dff1a85da3fc"

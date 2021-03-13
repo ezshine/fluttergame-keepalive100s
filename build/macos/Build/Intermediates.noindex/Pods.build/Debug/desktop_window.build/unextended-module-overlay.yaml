@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Products/Debug/desktop_window/desktop_window.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/ezshine/Work/Playgrounds/keepalive100s/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_window.build/unextended-module.modulemap",
+    }]
+  }]
+}

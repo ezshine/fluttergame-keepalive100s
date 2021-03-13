@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "714bf90c90b113f0a9517d53b30e072f"
+build_time: [1615557953, 889737000]
+inputs:
+  "/Users/ezshine/Work/Playgrounds/keepalive100s/macos/Runner/MainFlutterWindow.swift": [1583451936, 493144739]
+  "/Users/ezshine/Work/Playgrounds/keepalive100s/macos/Runner/AppDelegate.swift": [1583451936, 490524822]
+  "/Users/ezshine/Work/Playgrounds/keepalive100s/macos/Flutter/GeneratedPluginRegistrant.swift": [1615557937, 20043288]
