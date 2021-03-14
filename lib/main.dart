@@ -163,7 +163,7 @@ class MyGameSubClass extends BaseGame with PanDetector {
 
   //子弹离开屏幕判断
   bool isNotInScreen(double x, double y) {
-    if (x + bulletSize.x/2 < 0 || x > screenSize.width || y + bulletSize.y/2 < 0 || y > screenSize.height)
+    if (x < -bulletSize.x || x > screenSize.width || y < -bulletSize.y || y > screenSize.height)
       return true;
     return false;
   }
