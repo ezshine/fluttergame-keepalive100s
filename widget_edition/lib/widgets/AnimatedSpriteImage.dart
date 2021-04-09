@@ -31,6 +31,7 @@ class _AnimatedSpriteImageState extends State<AnimatedSpriteImage> {
 
   int currentIndex = 0;
   int currentTimes = 0;
+  int playTimes = 0;
 
   @override
   void initState() {
@@ -55,6 +56,12 @@ class _AnimatedSpriteImageState extends State<AnimatedSpriteImage> {
 
   @override
   Widget build(BuildContext context) {
+
+    if(widget.playTimes!=playTimes){
+      playTimes=widget.playTimes;
+      currentTimes=0;
+    }
+
     return Container(
         width: widget.spriteSize.width,
         height: widget.spriteSize.height,
