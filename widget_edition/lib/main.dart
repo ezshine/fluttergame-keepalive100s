@@ -74,6 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
+    playerLeft = screenSize.width/2-66/2;
+    playerTop = screenSize.height/2-82/2;
 
     bulletImage = Image.asset("assets/images/bullet.png",width: bulletSize.width,height: bulletSize.height);
 
@@ -110,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  getBullets(){
+  getBulletsWidget(){
     List<Positioned> bullets = [];
 
     for(int i = 0;i<bulletsData.length;i++){
@@ -147,29 +149,58 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   sceneTitle() {
-
-    return Center(
-      child: Column(
-        children: [
-          Padding(
-              padding: EdgeInsets.only(top: 100),
-              child: Image.asset("assets/images/title.png", width: 300)),
-          Padding(
-              padding: EdgeInsets.only(top: 100),
-              child: SizedBox(
-                  width: 300,
-                  height: 60,
-                  child: ElevatedButton(
-                      onPressed: () {
-                        gameStart();
-                      },
-                      child: Text("游戏开始"))))
-        ],
-      ),
-    );
+    if(gameStatus==0){
+      return Center(
+        child: Column(
+          children: [
+            Padding(
+                padding: EdgeInsets.only(top: 100),
+                child: Image.asset("assets/images/title.png", width: 300)),
+            Padding(
+                padding: EdgeInsets.only(top: 150),
+                child: SizedBox(
+                    width: 300,
+                    height: 60,
+                    child: ElevatedButton(
+                        onPressed: () {
+                          gameStart();
+                        },
+                        child: Text("游戏开始"))))
+          ],
+        ),
+      );
+    }else if(gameStatus==2){
+      return Center(
+        child: Column(
+          children: [
+            Padding(
+                padding: EdgeInsets.only(top: 100),
+                child: Image.asset("assets/images/gameover.png", width: 300)),
+            Padding(
+                padding: EdgeInsets.only(top: 20),child:Align(
+              child: Text("恭喜获得$gameTime秒真男人称号",style: TextStyle(fontSize: 30,color: Colors.blue),),
+            )),
+            Padding(
+                padding: EdgeInsets.only(top: 165),
+                child: SizedBox(
+                    width: 300,
+                    height: 60,
+                    child: ElevatedButton(
+                        onPressed: () {
+                          setState(() {
+                            gameStatus = 0;
+                          });
+                        },
+                        child: Text("淦，再来一次"))))
+          ],
+        ),
+      );
+    }else{
+      return Container();
+    }
   }
 
-  sceneGameStart() {
+  sceneGame() {
 
     return GestureDetector(
       
@@ -196,52 +227,15 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Stack(
-              children: getBullets(),
+              children: getBulletsWidget(),
             ),
-            Positioned(
-              child: Align(
-                alignment: Alignment.topCenter,
-                child: Text("$gameTime秒",style: TextStyle(fontSize: 48),),
-              )
+            Align(
+              child: Text(gameStatus==1?"$gameTime秒":"",style: TextStyle(fontSize: 40)),
+              alignment:Alignment.topCenter
             ),
-            sceneGameOver()
+            sceneTitle()
           ],
         ));
-  }
-
-  sceneGameOver() {
-    if(gameStatus!=2)return Container();
-    return Center(
-      child: Column(
-        children: [
-          Padding(
-              padding: EdgeInsets.only(top: 200),
-              child: Image.asset("assets/images/gameover.png", width: 300)),
-          Padding(
-              padding: EdgeInsets.only(top: 100),child:Align(
-            child: Text("恭喜获得$gameTime秒真男人称号",style: TextStyle(fontSize: 30,color: Colors.blue),),
-          )),
-          Padding(
-              padding: EdgeInsets.only(top: 100),
-              child: SizedBox(
-                  width: 300,
-                  height: 60,
-                  child: ElevatedButton(
-                      onPressed: () {
-                        gameStart();
-                      },
-                      child: Text("淦，再来一次"))))
-        ],
-      ),
-    );
-  }
-
-  getSceneByStatus() {
-    if (gameStatus == 0) {
-      return sceneTitle();
-    } else if (gameStatus >= 1) {
-      return sceneGameStart();
-    }
   }
 
   gameOver(){
@@ -256,7 +250,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   gameStart(){
-
     updateTimer = Timer.periodic(Duration(milliseconds: 20), (timer) {
       
       if(timer.tick%50==0){
@@ -265,7 +258,27 @@ class _MyHomePageState extends State<MyHomePage> {
         addGroupBullets();
       }
 
-      for (int i = bulletsData.length - 1; i >= 0; i--) {
+      loop();
+    });
+    
+
+    playerSpriteStartIndex = 0;
+    playerSpriteEndIndex = 1;
+    playerSprtePlayTimes = 0;
+
+    bulletsData= [];
+    gameStatus = 1;
+    gameTime = 0;
+
+    playerLeft = screenSize.width/2-66/2;
+    playerTop = screenSize.height/2-82/2;
+
+    addGroupBullets();
+  }
+
+  loop(){
+
+    for (int i = bulletsData.length - 1; i >= 0; i--) {
       var bulletItem = bulletsData[i];
 
       double angle = bulletItem["angle"];
@@ -286,26 +299,7 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     }
 
-      setState(() {
-        
-      });
-    });
-    
-
-    setState(() {
-      playerSpriteStartIndex = 0;
-      playerSpriteEndIndex = 1;
-      playerSprtePlayTimes = 0;
-
-      bulletsData= [];
-      gameStatus = 1;
-      gameTime = 0;
-
-      playerLeft = screenSize.width/2-66/2;
-      playerTop = screenSize.height/2-82/2;
-    });
-
-    addGroupBullets();
+    setState(() {});
   }
 
   @override
@@ -316,6 +310,12 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return DefaultTextStyle(style: TextStyle(color: Colors.blue), child: Container(child:getSceneByStatus(),color: Colors.grey[300],));
+    return DefaultTextStyle(
+      style: TextStyle(color: Colors.blue), 
+      child: Container(
+        child:sceneGame(),
+        color: Colors.grey[300],
+      )
+    );
   }
 }
