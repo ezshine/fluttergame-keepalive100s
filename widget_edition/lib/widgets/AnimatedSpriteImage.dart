@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/widgets.dart';
 
 class AnimatedSpriteImage extends StatefulWidget {
-
   final Image image;
   final Size spriteSize;
   final int startIndex;
@@ -20,7 +19,7 @@ class AnimatedSpriteImage extends StatefulWidget {
     this.axis = Axis.horizontal,
     this.startIndex = 0,
     this.endIndex = 0,
-    this.playTimes = 0,//0 = loop
+    this.playTimes = 0, //0 = loop
   }) : super(key: key);
 
   @override
@@ -28,25 +27,25 @@ class AnimatedSpriteImage extends StatefulWidget {
 }
 
 class _AnimatedSpriteImageState extends State<AnimatedSpriteImage> {
-
   int currentIndex = 0;
   int currentTimes = 0;
   int playTimes = 0;
 
   @override
   void initState() {
-
     currentIndex = widget.startIndex;
 
-    Timer.periodic(widget.duration, (timer) { 
-      if(currentTimes<=widget.playTimes){
+    Timer.periodic(widget.duration, (timer) {
+      if (currentTimes <= widget.playTimes) {
         setState(() {
-          if(currentIndex>=widget.endIndex){
-            if(widget.playTimes!=0)currentTimes++;
-            if(currentTimes<widget.playTimes||widget.playTimes==0)currentIndex=widget.startIndex;
-            else currentIndex = widget.endIndex;
-          }
-          else currentIndex++;
+          if (currentIndex >= widget.endIndex) {
+            if (widget.playTimes != 0) currentTimes++;
+            if (currentTimes < widget.playTimes || widget.playTimes == 0)
+              currentIndex = widget.startIndex;
+            else
+              currentIndex = widget.endIndex;
+          } else
+            currentIndex++;
         });
       }
     });
@@ -56,25 +55,26 @@ class _AnimatedSpriteImageState extends State<AnimatedSpriteImage> {
 
   @override
   Widget build(BuildContext context) {
-
-    if(widget.playTimes!=playTimes){
-      playTimes=widget.playTimes;
-      currentTimes=0;
+    if (widget.playTimes != playTimes) {
+      playTimes = widget.playTimes;
+      currentTimes = 0;
     }
 
     return Container(
-        width: widget.spriteSize.width,
-        height: widget.spriteSize.height,
-        
-        child: Stack(
-          children: [
-            Positioned(
-              left: widget.axis==Axis.horizontal?-widget.spriteSize.width*currentIndex:0,
-              top: widget.axis==Axis.vertical?-widget.spriteSize.height*currentIndex:0,
-              child: widget.image
-            )
-          ],
-        ),
+      width: widget.spriteSize.width,
+      height: widget.spriteSize.height,
+      child: Stack(
+        children: [
+          Positioned(
+              left: widget.axis == Axis.horizontal
+                  ? -widget.spriteSize.width * currentIndex
+                  : 0,
+              top: widget.axis == Axis.vertical
+                  ? -widget.spriteSize.height * currentIndex
+                  : 0,
+              child: widget.image)
+        ],
+      ),
     );
   }
 }

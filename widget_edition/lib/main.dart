@@ -56,14 +56,14 @@ class _MyHomePageState extends State<MyHomePage> {
   double playerLeft = 0;
   double playerTop = 0;
   double playerWidth = 66;
-  double playerHeight= 82;
+  double playerHeight = 82;
   int playerSpriteStartIndex = 0;
   int playerSpriteEndIndex = 1;
   int playerSprtePlayTimes = 0;
 
   double hitDistance = 20;
-  Size screenSize = window.physicalSize/window.devicePixelRatio;
-  Size bulletSize = Size(20,20);
+  Size screenSize = window.physicalSize / window.devicePixelRatio;
+  Size bulletSize = Size(20, 20);
 
   List bulletsData = [];
 
@@ -74,15 +74,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    playerLeft = screenSize.width/2-66/2;
-    playerTop = screenSize.height/2-82/2;
+    playerLeft = screenSize.width / 2 - 66 / 2;
+    playerTop = screenSize.height / 2 - 82 / 2;
 
-    bulletImage = Image.asset("assets/images/bullet.png",width: bulletSize.width,height: bulletSize.height);
+    bulletImage = Image.asset("assets/images/bullet.png",
+        width: bulletSize.width, height: bulletSize.height);
 
     super.initState();
   }
 
-  addBullet(){
+  addBullet() {
     double bulletX;
     double bulletY;
 
@@ -92,37 +93,36 @@ class _MyHomePageState extends State<MyHomePage> {
       bulletY = Random().nextBool() ? -bulletSize.height : screenSize.height;
     } else {
       bulletX = Random().nextBool() ? -bulletSize.width : screenSize.width;
-      bulletY = Random().nextDouble() * (screenSize.height + bulletSize.height) -
-          bulletSize.height;
+      bulletY =
+          Random().nextDouble() * (screenSize.height + bulletSize.height) -
+              bulletSize.height;
     }
 
     bulletsData.add({
-      "x":bulletX,
-      "y":bulletY,
-      "speed": (1+gameTime/10) + Random().nextDouble()*3,
-      "angle": atan2(((bulletY + bulletSize.height/2) - (playerTop + playerHeight / 2)),
+      "x": bulletX,
+      "y": bulletY,
+      "speed": (1 + gameTime / 10) + Random().nextDouble() * 3,
+      "angle": atan2(
+          ((bulletY + bulletSize.height / 2) - (playerTop + playerHeight / 2)),
           ((bulletX + bulletSize.width) - (playerLeft + playerWidth / 2)))
     });
   }
 
-  addGroupBullets(){
-    int groupCount = 10+Random().nextInt(gameTime+1);
+  addGroupBullets() {
+    int groupCount = 10 + Random().nextInt(gameTime + 1);
     for (int i = 0; i < groupCount; i++) {
       addBullet();
     }
   }
 
-  getBulletsWidget(){
+  getBulletsWidget() {
     List<Positioned> bullets = [];
 
-    for(int i = 0;i<bulletsData.length;i++){
+    for (int i = 0; i < bulletsData.length; i++) {
       var bulletItem = bulletsData[i];
       // print(bulletItem);
       var bulletWidget = Positioned(
-        left: bulletItem["x"],
-        top: bulletItem["y"],
-        child: bulletImage
-      );
+          left: bulletItem["x"], top: bulletItem["y"], child: bulletImage);
 
       bullets.add(bulletWidget);
     }
@@ -132,15 +132,19 @@ class _MyHomePageState extends State<MyHomePage> {
 
   //子弹离开屏幕判断
   bool isNotInScreen(double x, double y) {
-    if (x < -bulletSize.width || x > screenSize.width || y < -bulletSize.height || y > screenSize.height)
-      return true;
+    if (x < -bulletSize.width ||
+        x > screenSize.width ||
+        y < -bulletSize.height ||
+        y > screenSize.height) return true;
     return false;
   }
 
   //飞机和子弹碰撞判断
   bool isHitPlayer(double x, double y) {
-    double _x = (x + bulletSize.width / 2 - (playerLeft + playerWidth / 2)).abs();
-    double _y = (y + bulletSize.height / 2 - (playerTop + playerHeight / 2)).abs();
+    double _x =
+        (x + bulletSize.width / 2 - (playerLeft + playerWidth / 2)).abs();
+    double _y =
+        (y + bulletSize.height / 2 - (playerTop + playerHeight / 2)).abs();
 
     double distance = sqrt(_x * _x + _y * _y);
 
@@ -149,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   sceneTitle() {
-    if(gameStatus==0){
+    if (gameStatus == 0) {
       return Center(
         child: Column(
           children: [
@@ -169,7 +173,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       );
-    }else if(gameStatus==2){
+    } else if (gameStatus == 2) {
       return Center(
         child: Column(
           children: [
@@ -177,9 +181,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: EdgeInsets.only(top: 100),
                 child: Image.asset("assets/images/gameover.png", width: 300)),
             Padding(
-                padding: EdgeInsets.only(top: 20),child:Align(
-              child: Text("恭喜获得$gameTime秒真男人称号",style: TextStyle(fontSize: 30,color: Colors.blue),),
-            )),
+                padding: EdgeInsets.only(top: 20),
+                child: Align(
+                  child: Text(
+                    "恭喜获得$gameTime秒真男人称号",
+                    style: TextStyle(fontSize: 30, color: Colors.blue),
+                  ),
+                )),
             Padding(
                 padding: EdgeInsets.only(top: 165),
                 child: SizedBox(
@@ -195,17 +203,15 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       );
-    }else{
+    } else {
       return Container();
     }
   }
 
   sceneGame() {
-
     return GestureDetector(
-      
         onPanUpdate: (DragUpdateDetails details) {
-          if(gameStatus==1){
+          if (gameStatus == 1) {
             setState(() {
               playerLeft += details.delta.dx;
               playerTop += details.delta.dy;
@@ -230,54 +236,51 @@ class _MyHomePageState extends State<MyHomePage> {
               children: getBulletsWidget(),
             ),
             Align(
-              child: Text(gameStatus==1?"$gameTime秒":"",style: TextStyle(fontSize: 40)),
-              alignment:Alignment.topCenter
-            ),
+                child: Text(gameStatus == 1 ? "$gameTime秒" : "",
+                    style: TextStyle(fontSize: 40)),
+                alignment: Alignment.topCenter),
             sceneTitle()
           ],
         ));
   }
 
-  gameOver(){
-    if(updateTimer.isActive)updateTimer.cancel();
+  gameOver() {
+    if (updateTimer.isActive) updateTimer.cancel();
 
     setState(() {
       playerSpriteStartIndex = 2;
       playerSpriteEndIndex = 4;
       playerSprtePlayTimes = 1;
-      gameStatus=2;
+      gameStatus = 2;
     });
   }
 
-  gameStart(){
+  gameStart() {
     updateTimer = Timer.periodic(Duration(milliseconds: 20), (timer) {
-      
-      if(timer.tick%50==0){
+      if (timer.tick % 50 == 0) {
         //seconds
-        gameTime+=1;
+        gameTime += 1;
         addGroupBullets();
       }
 
       loop();
     });
-    
 
     playerSpriteStartIndex = 0;
     playerSpriteEndIndex = 1;
     playerSprtePlayTimes = 0;
 
-    bulletsData= [];
+    bulletsData = [];
     gameStatus = 1;
     gameTime = 0;
 
-    playerLeft = screenSize.width/2-66/2;
-    playerTop = screenSize.height/2-82/2;
+    playerLeft = screenSize.width / 2 - 66 / 2;
+    playerTop = screenSize.height / 2 - 82 / 2;
 
     addGroupBullets();
   }
 
-  loop(){
-
+  loop() {
     for (int i = bulletsData.length - 1; i >= 0; i--) {
       var bulletItem = bulletsData[i];
 
@@ -311,11 +314,10 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return DefaultTextStyle(
-      style: TextStyle(color: Colors.blue), 
-      child: Container(
-        child:sceneGame(),
-        color: Colors.grey[300],
-      )
-    );
+        style: TextStyle(color: Colors.blue),
+        child: Container(
+          child: sceneGame(),
+          color: Colors.grey[300],
+        ));
   }
 }
